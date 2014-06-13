@@ -30,13 +30,19 @@ Git Routine
 + View history
 ``` git log ```
 + Remove file form git
-``` git rm fimename```
+``` git rm filename```
 + Change the branch or go to specific commit
 ``` git checkout branchname```
 + Remote add origin 
-```git remote add origin git@github......git
+```git remote add origin git@github......git```
 +Push the changes to the server (-u means default branch for the future pushes)
-```git push origin branchname
+```git push origin branchname```
++ Check remote set ups
+``` git remote -v```
++ Get repo changes
+```git pull origin branchname```
++ Clone the repo
+```git clone https://github.com/blavla...git```
 Git Advanced
 --------------
 
