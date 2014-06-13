@@ -4,7 +4,7 @@ Git Under My hand
 ###Every day Git hints:
 Git Setup
 --------------
-+ Git version
++ Git version 
 ``` git --version ```
 + Set up Git
 ```
@@ -18,13 +18,25 @@ git config --global core.safecrlf true
 ```
 Git Routine
 --------------
-+ Start new project
++ Start new project 
 ```git init ```
-+ Add all changed files
++ Add all changed files or one to staging area
 ```git add -A```
+```git add filename ```
 + Local commit the changes
 ```git commit -m "commit message"```
-
++ Check the status
+``` git status```
++ View history
+``` git log ```
++ Remove file form git
+``` git rm fimename```
++ Change the branch or go to specific commit
+``` git checkout branchname```
++ Remote add origin 
+```git remote add origin git@github......git
++Push the changes to the server (-u means default branch for the future pushes)
+```git push origin branchname
 Git Advanced
 --------------
 
