@@ -13,3 +13,6 @@ Git Under My hand
 + To delete (local or remote) branch <br />
 ``` git branch -d the_local_branch ``` <br />
 ``` git push origin :the_remote_branch ```
+
++ To create a new branch from current checked out branch <br />
+``` git checkout -b newbranch ```
