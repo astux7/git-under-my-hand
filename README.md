@@ -35,7 +35,7 @@ Git Routine
 ``` git checkout branchname```
 + Remote add origin 
 ```git remote add origin git@github......git```
-+Push the changes to the server (-u means default branch for the future pushes)
++ Push the changes to the server (-u means default branch for the future pushes)
 ```git push origin branchname```
 + Check remote set ups
 ``` git remote -v```
