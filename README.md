@@ -16,17 +16,18 @@ git config --global user.email "your email"
 git config --global core.autocrlf input 
 git config --global core.safecrlf true
 ```
-Git Routine
+Git Routine ( practice go to try.github.io)
 --------------
 + Start new project 
-```git init ```
+```git init ```             
++ Checking the status
+```git status```
 + Add all changed files or one to staging area
 ```git add -A```
 ```git add filename ```
+```git add "*.txt"```
 + Local commit the changes
 ```git commit -m "commit message"```
-+ Check the status
-``` git status```
 + View history
 ``` git log ```
 + Remove file form git
@@ -34,7 +35,7 @@ Git Routine
 + Change the branch or go to specific commit
 ``` git checkout branchname```
 + Remote add origin 
-```git remote add origin git@github......git```
+```git remote add origin https://git@github......git```
 + Push the changes to the server (-u means default branch for the future pushes)
 ```git push origin branchname```
 + Check remote set ups
@@ -43,6 +44,23 @@ Git Routine
 ```git pull origin branchname```
 + Clone the repo
 ```git clone https://github.com/blavla...git```
++ Differences from last commit and changes
+```git diff HEAD```
++ Differences you staged 
+```git diff --staged```
++ Reset/Unstage files
+```git reset filename```
++ Undo (reset changes)
+```git checkout -- filname```
++ Merge branches ( A branch we merge into B branch)
+```git checkout B```
+```git merge A```
++ Delete a branch
+```git branch -d branchname```
+```git push```
+
+
+
 Git Advanced
 --------------
 
