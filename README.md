@@ -61,6 +61,9 @@ Git Routine ( practice go to try.github.io)
 + Delete a branch
 ```git branch -d branchname```
 ```git push```
++ Clone 
+```git clone repo directory```
+
 
 
 
