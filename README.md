@@ -6,6 +6,9 @@ Git Setup
 --------------
 + Git version 
 ``` git --version ```
++ Git help/about the command
+``` git help```
+```git help command_name```
 + Set up Git
 ```
 git config --global user.name "your name" 
