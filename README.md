@@ -1,4 +1,4 @@
-Git Under My hand
+Git Under My hand (https://www.atlassian.com/git/tutorials)
 =================
 
 ###Every day Git hints:
@@ -12,10 +12,10 @@ Git Setup
 + Set up Git
 Define the author name to be used for all commits by the current user.
 ```
-git config --global user.name "your name" 
+git config --global user.name "your name" ```
 
 Define the author email to be used for all commits by the current user.
-
+```
 git config --global user.email "your email"
 ```
 + Config system to use Git
@@ -87,8 +87,19 @@ Begin an interactive staging session that lets you choose portions of a file to 
 
 Git Advanced
 --------------
++ go to specific commit 
+```git log --oneline```
+```git checkout a123fee hello.py```
++ revert (safe way)
+```git revert <commit>```
+to go back use
+```git checkout HEAD hello.py```
++ Reset When you undo with git reset(and the commits are no longer referenced by any ref or the reflog), there is no way to retrieve the original copy—it is a permanent undo. 
+```git reset file```
+reset staging area 
+```git reset --hard```
 + git log all history (next space , exit q)
-```git log -n <limit>
+```git log -n <limit>```
 specific file information
 ```git log filename```
 commits seach by author 
@@ -108,3 +119,13 @@ or pattern
 
 + To create a new branch from current checked out branch <br />
 ``` git checkout -b newbranch ```
++ Clean directory
+The git clean command removes untracked files from your working directory. 
+``` git clean -n ```
+shows which files are going to be remove
+
+force remove files
+```git clean -f```
+
+force remove files and dir 
+```git clean -xf```
