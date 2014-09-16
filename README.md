@@ -22,7 +22,12 @@ git config --global core.safecrlf true
 Git Routine ( practice go to try.github.io)
 --------------
 + Start new project 
-```git init ```             
+```git init
+<br />
+Running this command will create a new folder called <directory containing nothing but the .git subdirectory.
+```git init <directory>```
+Initialize an empty Git repository, but omit the working directory. Shared repositories should always be created with the --bare flag .The --bare flag creates a repository that doesn’t have a working directory, making it impossible to edit files and commit changes in that repository. 
+```git init --bare <directory>```
 + Checking the status
 ```git status```
 + Add all changed files or one to staging area
