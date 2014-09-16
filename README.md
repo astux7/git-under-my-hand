@@ -87,6 +87,7 @@ Begin an interactive staging session that lets you choose portions of a file to 
 
 Git Advanced
 --------------
+
 + go to specific commit 
 ```git log --oneline```
 ```git checkout a123fee hello.py```
@@ -114,8 +115,8 @@ or pattern
 ``` git branch -r  ```
 
 + To delete (local or remote) branch <br />
-``` git branch -d the_local_branch 
-    git push origin :the_remote_branch ```
+``` git branch -d the_local_branch ```
+``` git push origin :the_remote_branch ```
 
 + To create a new branch from current checked out branch <br />
 ``` git checkout -b newbranch ```
@@ -129,3 +130,7 @@ force remove files
 
 force remove files and dir 
 ```git clean -xf```
++ list of remote connections you have to other repos
+```git remote -v ```
++The git fetch command imports commits from a remote repository into your local repo. 
+```git fetch <renote>``` (git fetch origin)
