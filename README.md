@@ -10,8 +10,12 @@ Git Setup
 ``` git help```
 ```git help command_name```
 + Set up Git
+Define the author name to be used for all commits by the current user.
 ```
 git config --global user.name "your name" 
+
+Define the author email to be used for all commits by the current user.
+
 git config --global user.email "your email"
 ```
 + Config system to use Git
@@ -19,6 +23,9 @@ git config --global user.email "your email"
 git config --global core.autocrlf input 
 git config --global core.safecrlf true
 ```
+Select your favorite text editor
+```git config --global core.editor vim```
+
 Git Routine ( practice go to try.github.io)
 --------------
 + Start new project 
@@ -38,6 +45,8 @@ Initialize an empty Git repository, but omit the working directory. Shared repos
 ```git add -A```
 ```git add filename ```
 ```git add "*.txt"```
+Begin an interactive staging session that lets you choose portions of a file to add to the next commit. This will present you with a chunk of changes and prompt you for a command. Use y to stage the chunk, n to ignore the chunk, s to split it into smaller chunks, e to manually edit the chunk, and q to exit.
+```git add -p```
 + Local commit the changes
 ```git commit -m "commit message"```
 + View history
