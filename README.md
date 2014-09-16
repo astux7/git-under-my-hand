@@ -25,6 +25,7 @@ Git Routine ( practice go to try.github.io)
 ```git init```
 
   Running this command will create a new folder called <directory containing nothing but the .git subdirectory.
+  
 ```git init <directory>```
 
 Initialize an empty Git repository, but omit the working directory. Shared repositories should always be created with the --bare flag .The --bare flag creates a repository that doesn’t have a working directory, making it impossible to edit files and commit changes in that repository. 
