@@ -31,7 +31,7 @@ Git Routine ( practice go to try.github.io)
 + Start new project 
 ```git init```
 
-  Running this command will create a new folder called <directory containing nothing but the .git subdirectory.
+Running this command will create a new folder called <directory containing nothing but the .git subdirectory.
   
 ```git init <directory>```
 
@@ -87,7 +87,14 @@ Begin an interactive staging session that lets you choose portions of a file to 
 
 Git Advanced
 --------------
-
++ git log all history (next space , exit q)
+```git log -n <limit>
+specific file information
+```git log filename```
+commits seach by author 
+```git log --author="<pattern>"```
+or pattern
+```git log --grep="<pattern>"```
 + Change the last local commit message (not yet pushed to server) <br />
 ``` git commit --amend -m "new commit message to change the last one" ```
 
